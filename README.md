@@ -31,7 +31,7 @@ We also have a Google folder where we give each other hints, help, as well as in
 ### Database
 #### Who Worked on It
 * Caleb
-* help for Elizabeth
+* help from Elizabeth
 
 ### Dashboard
 N/A
