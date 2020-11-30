@@ -16,6 +16,7 @@ We are curious about how the internal and external features as well as area surr
 ### GitHub
 #### Who Worked on It
 * Elizabeth
+    * [Elizabeth's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md)
 
 #### Communication
 Communication is primerly done through biweekly meetings as well as messaging in discord.
