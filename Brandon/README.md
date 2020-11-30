@@ -22,13 +22,14 @@ Features:
 Preprocessing Data:
 
     * Download dataset from csv
+    * Host database with Amazon Web Services
     * Create tables in database with CSV (SQL)
     * Read tables into Pandas
     * Clean up data if needed
 
 Outline of machine learning model:
 
-    * Predict price of home based on features such as # of rooms, lot size, location, etc.
-    * Group housing prices based on related featurs into clusters
+    * Predict price of home based on features such as # of bedrooms, # of bathrooms, square footage, etc.
+    * Create groups based on price of house and cluster features that fall within the price range
     * Use 3D plot to visualize the breakdown of features of each cluster and display what house price group they fall under (prediction)
 
