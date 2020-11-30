@@ -22,9 +22,8 @@ Features:
 Preprocessing Data:
 
     * Download dataset from csv
-    * Host database with Amazon Web Services
     * Create tables in database with CSV (SQL)
-    * Read tables into Pandas
+    * Read tables into Pandas using SQLAlchemy/SQLlite
     * Clean up data if needed
 
 Outline of machine learning model:
