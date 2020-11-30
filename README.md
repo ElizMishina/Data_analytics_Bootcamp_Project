@@ -25,6 +25,7 @@ We also have a Google folder where we give each other hints, help, as well as in
 ### Machine Learning Model
 #### Who Worked on It
 * Brandon
+    * [Brandon's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Brandon/Brandon/README.md)
 * Savitha
 
 
