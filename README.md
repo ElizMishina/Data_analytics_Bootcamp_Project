@@ -11,7 +11,8 @@ We as a group collectivly selected to create a Website to help Predict housing p
 We are curious about how the internal and external features as well as area surrounding a house can affect the price.
 
 #### Data Source(s)
-* kagle
+* [Kagle: House Sales in King County USA](https://www.kaggle.com/achyutanandaparida/dataset%20from%20%20house%20sales%20in%20king%20county,%20usa)
+* [Washington Zip Codes by Population](https://www.washington-demographics.com/zip_codes_by_population)
 
 ### GitHub
 #### Who Worked on It
