@@ -16,7 +16,7 @@
 [Link to Data](https://www.unitedstateszipcodes.org/wa/)  
 
 **Preprocessing Data (Database):**
-Elizabeth Mishina & Caleb TenHuisen
+**Elizabeth Mishina & Caleb TenHuisen**
 
     * Download dataset as csv
     * Create tables in database with CSV (SQL)
@@ -24,7 +24,7 @@ Elizabeth Mishina & Caleb TenHuisen
     * Clean up data if needed
 
 **Machine Learning Model (Outline):**
-Brandon DeLuna & Savitha Sathyanathan
+**Brandon DeLuna & Savitha Sathyanathan**
     
     Target: House Price
 
@@ -33,7 +33,7 @@ Brandon DeLuna & Savitha Sathyanathan
         * # of bedrooms
         * # of bathrooms
         * # of square foot living
-        * # of square foot lots
+        * # of square foot lot
         * # of floors
         * water front
         * view
