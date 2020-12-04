@@ -8,11 +8,13 @@
 We as a group collectivly selected to create a Website to help Predict housing prices. 
 
 #### Reason/Questions to Answer
-We are curious about how the internal and external features as well as area surrounding a house can affect the price.
+We are curious about how the internal and external features as well as area surrounding a house, and how it can affect the price in an area.
 
 #### Data Source(s)
-* [Kagle: House Sales in King County USA](https://www.kaggle.com/achyutanandaparida/dataset%20from%20%20house%20sales%20in%20king%20county,%20usa)
-* [Washington Zip Codes by Population](https://www.washington-demographics.com/zip_codes_by_population)
+* [Kagle: House Sales in King County USA](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/main/kc_house_data.csv)
+    * [Original location](https://www.kaggle.com/achyutanandaparida/dataset%20from%20%20house%20sales%20in%20king%20county,%20usa)
+* [Washington Zip Codes by Population](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/main/kc_house_data.csv)
+    * [Original Location](https://www.washington-demographics.com/zip_codes_by_population)
 
 ### GitHub
 #### Who Worked on It
@@ -36,8 +38,6 @@ We also have a Google folder where we give each other hints, help, as well as in
 #### Who Worked on It
 * Caleb
     * [Caleb's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md)
-* help from Elizabeth
-    * ReadMe above
 
 ### Dashboard
 N/A
