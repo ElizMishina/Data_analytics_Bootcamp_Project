@@ -12,13 +12,17 @@ Database: Elizabeth and Caleb
 
 **Reason for selection:** This project gives an oppurtunity for us to implement both supervised learning (predict house prices) and unsupervised learning (group houses for vizualization)  
 
-**Data Source:** House Sales Data for King County from Kaggle [Link to Data](https://www.kaggle.com/achyutanandaparida/dataset%20from%20%20house%20sales%20in%20king%20county,%20usa)  
+**Data Source:**  
+
+- House Sales Data for King County from Kaggle [Link to Data](https://www.kaggle.com/achyutanandaparida/dataset%20from%20%20house%20sales%20in%20king%20county,%20usa)  
+- Population and City info by Zipcode from unitedstateszipcodes.org [Link to Data](https://www.unitedstateszipcodes.org/wa/#zips-list)
 
 **Questions Answered:**  
 
 - Predict house prices  
 - Group houses into diffrent cluster  
-- Analyse what features impact the house price  
+- Analyze what features impact the house price  
+- Analyze house prices by city/zipcode
 
 **Machine Learning model:**  
 
@@ -38,10 +42,12 @@ Database: Elizabeth and Caleb
 - grade
 - yr_built
 - yr_renovated
+- population
 
 **Data Preprocessing:**
 
-- Download dataset as csv from Kaggel
+- Download house sales dataset as csv from Kaggel
+- Download population and city details dataset from unitedstateszipcodes.org
 - Create tables in database(SQLlite) and upload data
 - Read tables into Pandas using SQLAlchemy
 - Perform data cleansing as needed
