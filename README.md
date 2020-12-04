@@ -47,7 +47,7 @@ Database: Elizabeth and Caleb
 **Data Preprocessing:**
 
 - Download house sales dataset as csv from Kaggel
-- Download population and city details dataset from unitedstateszipcodes.org
+- Download population and city details dataset as csv from unitedstateszipcodes.org
 - Create tables in database(SQLlite) and upload data
 - Read tables into Pandas using SQLAlchemy
 - Perform data cleansing as needed
@@ -55,8 +55,9 @@ Database: Elizabeth and Caleb
 **Outline of machine learning model:**
 
 - Use p-Value from multiple linear regressions to look at each independent variable to determine if there is a significant relationship with the dependent variable
-- Predict price of home based on features listed above
-- Create groups based on the features using clustering
-- Use 3D plot to visualize the breakdown of features of each cluster and display what house price group they fall under (prediction)
+- Select features that have significant relationship to the dependent variable
+- Predict price of home based on selected features
+- Create clusters based on the selected features using clustering
+- Use plots to visualize the breakdown of features of each cluster and display what house price group they fall under (prediction)
 - After evaluating each independent variable, use r-squared of the model to determine if the model was successful at predicting dependent variables
 - Optimize the machine learning model to improve accuracy
