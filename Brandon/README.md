@@ -1,4 +1,4 @@
-* Deliverable 1*
+**Deliverable 1**
 
 **Problem Statement (Topic):** Predicting King County, USA housing prices using specific features
 
