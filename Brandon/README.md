@@ -31,6 +31,7 @@ Outline of machine learning model:
     * Predict price of home based on features such as # of bedrooms, # of bathrooms, square footage, etc.
     * Create groups based on price of house and cluster features that are related to datapoints within each price range
     * Use 3D plot to visualize the breakdown of features of each cluster and display what house price group they fall under (prediction)
-    * Create multiple linear regressions to look at each independent variable to determine if there is a significant relationship with the dependent variable
+    * Create multiple linear regressions to look at each independent variable to determine if there is a significant relationship with the dependent variable --------------------
     * After evaluating each independent variable, use r-squared of the model to determine if the model was successful at predicting dependent variable.
+
 
