@@ -31,7 +31,7 @@
         * # of bedrooms
         * # of bathrooms
         * # of square foot living
-        * # of square foot lot
+        * # of square foot lots
         * # of floors
         * water front
         * view
