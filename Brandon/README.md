@@ -1,6 +1,14 @@
-**Deliverable 1**
+* Deliverable 1*
 
-**Problem Statement:** Predicting King County, USA housing prices using specific features
+**Problem Statement (Topic):** Predicting King County, USA housing prices using specific features
+
+**Reason Why We Selected Topic:** Interesting way to apply machine learning models (supervised/unsupervised) to real world data in order to predict house prices
+
+**Questions Answered:**
+
+    * Can we predict the price of a home in King County, USA based on features such as square footage, # of rooms, zipcode, etc.
+    * How accurately can we predict the price of a home 
+    * To what extent does each feature impact the price of a home
 
 **Dataset Source:** 
 
