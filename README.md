@@ -28,12 +28,15 @@ We also have a Google folder where we give each other hints, help, as well as in
 * Brandon
     * [Brandon's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Brandon/Brandon/README.md)
 * Savitha
+    * [Savitha's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/README.md)
 
 
 ### Database
 #### Who Worked on It
 * Caleb
+    * [Caleb's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md)
 * help from Elizabeth
+    * ReadMe above
 
 ### Dashboard
 N/A
