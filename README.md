@@ -2,11 +2,11 @@
 
 ## Deliverable 1
 
-**Worked on:**
+**Worked on:**  
 Presentation: Everyone  
-Github: Master branch origanization - Elizabeth, Branches - Everyone
-Machine Learning model: Savitha and Brandon
-Database: Elizabeth and Caleb
+Github: Master branch origanization - Elizabeth, Branches - Everyone  
+Machine Learning model: Savitha and Brandon  
+Database: Elizabeth and Caleb  
 
 **Topic:** Predict House prices in King County based on previous house sales data  
 
@@ -15,7 +15,6 @@ Database: Elizabeth and Caleb
 **Data Source:** House Sales Data for King County from Kaggle [Link to Data](https://www.kaggle.com/achyutanandaparida/dataset%20from%20%20house%20sales%20in%20king%20county,%20usa)  
 
 **Questions Answered:**  
-
 - Predict house prices  
 - Group houses into diffrent cluster  
 - Analyse what features impact the house price  
@@ -26,7 +25,6 @@ Database: Elizabeth and Caleb
 - Group houses into clusters using clustering  
 
 **Features:**
-
 - bedrooms
 - bathrooms
 - sqft_living
@@ -40,14 +38,12 @@ Database: Elizabeth and Caleb
 - yr_renovated
 
 **Data Preprocessing:**
-
 - Download dataset as csv from Kaggel
 - Create tables in database(SQLlite) and upload data
 - Read tables into Pandas using SQLAlchemy
 - Perform data cleansing as needed
 
 **Outline of machine learning model:**
-
 - Use p-Value from multiple linear regressions to look at each independent variable to determine if there is a significant relationship with the dependent variable
 - Predict price of home based on features listed above
 - Create groups based on the features using clustering
