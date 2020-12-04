@@ -1,5 +1,5 @@
 # Data_analytics_Bootcamp_Project
-## Segemnt 1
+## Segement 1
 ### Presentation
 #### Who Worked on It
 * Everyone
@@ -10,7 +10,7 @@ We as a group collectivly selected to create a Website to help Predict housing p
 #### Reason/Questions to Answer
 We are curious about how the internal and external features as well as area surrounding a house can affect the price.
 
-#### data source(s)
+#### Data Source(s)
 * kagle
 
 ### GitHub
@@ -40,3 +40,7 @@ We also have a Google folder where we give each other hints, help, as well as in
 
 ### Dashboard
 N/A
+
+## Segement 2
+## Segement 3
+## Segement 4
