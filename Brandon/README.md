@@ -1,6 +1,6 @@
 **Deliverable 1**
 
-**Problem Statement:** Predicting California housing prices using specific features
+**Problem Statement:** Predicting King County, USA housing prices using specific features
 
 **Dataset Source:** 
 
