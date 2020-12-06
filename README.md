@@ -14,6 +14,7 @@
 **Dataset Source:** 
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.11.42%20PM.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.11.42%20PM.png" alt="" style="max-width:100%;"></a>
 [Link to Data](https://www.kaggle.com/achyutanandaparida/dataset%20from%20%20house%20sales%20in%20king%20county,%20usa)  
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.12.20%20PM.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.12.20%20PM.png" alt="" style="max-width:100%;"></a>
 [Link to Data](https://www.unitedstateszipcodes.org/wa/)  
 
 **Preprocessing Data (Database):**
