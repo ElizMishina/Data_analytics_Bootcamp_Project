@@ -16,7 +16,7 @@
 [Link to Dataset 2](https://www.unitedstateszipcodes.org/wa/)  
 
 **Preprocessing Data (Database):**
-**Elizabeth Mishina & Caleb TenHuisen**
+Elizabeth Mishina & Caleb TenHuisen
 
     * Download dataset as csv
     * Create tables in database with CSV (SQL)
@@ -24,7 +24,7 @@
     * Clean up data if needed
 
 **Machine Learning Model (Outline):**
-**Brandon DeLuna & Savitha Sathyanathan**
+Brandon DeLuna & Savitha Sathyanathan
     
     Target: House Price
 
