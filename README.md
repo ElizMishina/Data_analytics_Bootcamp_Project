@@ -5,7 +5,7 @@
 * Everyone
 
 #### Topic
-We as a group collectivly selected to create a Website to help Predict housing prices. 
+We as a group collectivly selected to create a Website to help predict housing prices. 
 
 #### Reason/Questions to Answer
 We are curious about how the internal and external features as well as area surrounding a house, and how it can affect the price in an area.
