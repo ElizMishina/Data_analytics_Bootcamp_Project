@@ -15,7 +15,7 @@
 [Link to Dataset 1](https://www.kaggle.com/achyutanandaparida/dataset%20from%20%20house%20sales%20in%20king%20county,%20usa)  
 [Link to Dataset 2](https://www.unitedstateszipcodes.org/wa/)  
 
-**Preprocessing Data (Database):**
+![#f03c15]**Preprocessing Data (Database):**
 **Elizabeth Mishina & Caleb TenHuisen**
 
     * Download dataset as csv
