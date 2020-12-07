@@ -1,5 +1,7 @@
 # House Price Prediction
 
+[Master Readme Link](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/tree/main)
+
 ## Deliverable 1
 
 **Worked on:**  
