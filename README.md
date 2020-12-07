@@ -33,7 +33,7 @@
     * Clean up data if needed
 
 **Machine Learning Model (Outline):**
-**Brandon DeLuna & Savitha Sathyanathan**
+**Responsibility of Brandon DeLuna & Savitha Sathyanathan**
     
     Target: House Price
 
