@@ -1,15 +1,15 @@
-# Data_analytics_Bootcamp_Project
+# Data_Analytics_Bootcamp_Project
 **Deliverable 1**
 
-**Problem Statement (Topic):** Predicting King County, USA housing prices using specific features
+**Problem Statement (Topic):** Predict the value of a King County, USA home based on key attributes such as # of bedrooms, bathrooms, house size, lot size, etc.
 
-**Reason Why We Selected Topic:** Interesting way to apply machine learning models (supervised/unsupervised) to real world data in order to predict house prices
+**Reason Why We Selected Topic:** Creating a tool that can accurately predict a properties value based on real data could be useful outside of class whenever we decide to buy our own home.
 
 **Questions Answered:**
 
-    * Can we predict the price of a home in King County, USA based on features such as square footage, # of rooms, zipcode, etc.
-    * How accurately can we predict the price of a home 
-    * To what extent does each feature impact the price of a home
+    * Can we predict the price of a home in King County, USA based on features such as square footage, # of rooms, zipcode, etc.?
+    * How accurately can we predict the price of a home?
+    * To what extent does each feature impact the price of a home?
 
 **Dataset Source:** 
 [Link to Data](https://www.kaggle.com/achyutanandaparida/dataset%20from%20%20house%20sales%20in%20king%20county,%20usa)  
