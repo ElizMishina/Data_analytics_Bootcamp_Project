@@ -16,7 +16,7 @@
 [Link to Data](https://www.unitedstateszipcodes.org/wa/)  
 
 **Preprocessing Data (Database):**
-**Elizabeth Mishina & Caleb TenHuisen**
+**Caleb TenHuisen**
 
     
     * Download dataset as csv
