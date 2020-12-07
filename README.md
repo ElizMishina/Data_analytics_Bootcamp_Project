@@ -61,3 +61,6 @@ Database: Elizabeth and Caleb
 - Use plots to visualize the breakdown of features of each cluster and display what house price group they fall under (prediction)
 - After evaluating each independent variable, use r-squared of the model to determine if the model was successful at predicting dependent variables
 - Optimize the machine learning model to improve accuracy
+
+**Database:**
+[Caleb's Readme](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/tree/Caleb)
