@@ -1,6 +1,6 @@
 # Deliverable 1
 
-## Problem Statement (Topic):## Predicting King County, USA housing prices using specific features
+**Problem Statement (Topic):** Predicting King County, USA housing prices using specific features
 
 **Reason Why We Selected Topic:** Interesting way to apply machine learning models (supervised/unsupervised) to real world data in order to predict house prices
 
