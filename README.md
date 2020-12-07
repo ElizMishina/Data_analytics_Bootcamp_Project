@@ -38,6 +38,10 @@ We also have a Google folder where we give each other hints, help, as well as in
 #### Who Worked on It
 * Caleb
     * [Caleb's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md)
+    * start of database
+        * [ERD diagram](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.10.07%20PM.png)
+        * [KC_house example table](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.11.42%20PM.png)
+        * [Zipcode table](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.12.20%20PM.png)
 
 ### Dashboard
 N/A
