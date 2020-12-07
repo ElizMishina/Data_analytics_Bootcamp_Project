@@ -20,10 +20,14 @@
 
     
     * Download dataset as csv
-    * <a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.11.42%20PM.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.11.42%20PM.png" alt="" style="max-width:100%;"></a>
-    * <a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.12.20%20PM.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.12.20%20PM.png" alt="" style="max-width:100%;"></a>
+    
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.11.42%20PM.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.11.42%20PM.png" alt="" style="max-width:100%;"></a>
+
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.12.20%20PM.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.12.20%20PM.png" alt="" style="max-width:100%;"></a>
+
     * Create Entity Relationship Diagram to show how the dataset sources are related
-    * <a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.10.07%20PM.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.10.07%20PM.png" alt="" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.10.07%20PM.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202020-12-06%20at%206.10.07%20PM.png" alt="" style="max-width:100%;"></a>
+
     * Create tables in database with CSV (SQL)
     * Read tables into Pandas using SQLAlchemy/SQLlite
     * Clean up data if needed
