@@ -64,7 +64,7 @@ N/A
 * [Caleb's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md)
 
 #### Dashboard
-* [Elizabeth's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md)
+* [Elizabeth's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md)
 * [Storyboard](https://docs.google.com/presentation/d/1zPjLQjZFv1hgx527TvCYcwXP_tY3SkvMWfn8anygJrc/edit?usp=sharing)
 
 
