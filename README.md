@@ -16,10 +16,15 @@ In this segment I will be starting to put together the [presentation](https://do
 * descripition of the data exploration phase of the project
 * description of the analysis hase of the project
 
-In this segment i will continue to geep the [Main GitHub Page]() orginised.
-There are files for 
-In the [ReadMe]() file there are links to everyone's idividual ReadMe file as well as a breive over view of what everyone is doing.
+In this segment i will continue to geep the [Main GitHub Page](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project) orginised.
+There are/will be files for each part of the project:
+* [Resource](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/tree/main/Resources)
+* [DataBase]()
+* [Machine Learning Model]()
+* [Dashbord]()
+As well as the [ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/main/README.md) file, where there are links to everyone's idividual ReadMe file as well as a brief over view of what everyone is doing in each segment.
 
+In this segment I will be starting to put together the DashBoard. At this point I am unsure if we will be creating a website or using Tableau story board. However, there is a [Storyboard](https://docs.google.com/presentation/d/1zPjLQjZFv1hgx527TvCYcwXP_tY3SkvMWfn8anygJrc/edit#slide=id.g4dfce81f19_0_45) in google drive.
 
 
 ## Segment 3
