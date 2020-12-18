@@ -14,7 +14,7 @@ In this segment I will be starting to put together the [presentation](https://do
 * description of the data source
 * questions we hope to answer
 * descripition of the data exploration phase of the project
-* description of the analysis hase of the project
+* description of the analysis phase of the project
 
 In this segment i will continue to geep the [Main GitHub Page](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project) orginised.
 There are/will be files for each part of the project:
