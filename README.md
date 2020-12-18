@@ -46,6 +46,27 @@ We also have a Google folder where we give each other hints, help, as well as in
 ### Dashboard
 N/A
 
+
 ## Segement 2
+#### Presentation
+    * Everyone
+    * [Elizabeth](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md) putting together the presentation
+    * [Presentation](https://docs.google.com/presentation/d/1tu8kpEW_eMj6sY7mHG4yKu1wUKrHQQwbZeIkFiv13WE/edit?usp=sharing)
+
+#### GitHub
+    * [Elizabeth's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md)
+    
+#### Machine Learning Model
+    * [Brandon's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Brandon/Brandon/README.md)
+    * [Savitha's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/README.md)
+
+#### Database
+    * [Caleb's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md)
+
+#### Dashboard
+    * [Elizabeth's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md)
+    * [Storyboard](https://docs.google.com/presentation/d/1zPjLQjZFv1hgx527TvCYcwXP_tY3SkvMWfn8anygJrc/edit?usp=sharing)
+
+
 ## Segement 3
 ## Segement 4
