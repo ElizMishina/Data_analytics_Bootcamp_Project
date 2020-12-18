@@ -8,5 +8,19 @@ In this segment we worked together to pick out the topic, and orginize the proje
 
 
 ## Segment 2
+In this segment I will be starting to put together the [presentation](https://docs.google.com/presentation/d/1tu8kpEW_eMj6sY7mHG4yKu1wUKrHQQwbZeIkFiv13WE/edit#slide=id.g6c3f460955_0_120). It will contain:
+* selected topic
+* reason why it was selected
+* description of the data source
+* questions we hope to answer
+* descripition of the data exploration phase of the project
+* description of the analysis hase of the project
+
+In this segment i will continue to geep the [Main GitHub Page]() orginised.
+There are files for 
+In the [ReadMe]() file there are links to everyone's idividual ReadMe file as well as a breive over view of what everyone is doing.
+
+
+
 ## Segment 3
 ## Segment 4
