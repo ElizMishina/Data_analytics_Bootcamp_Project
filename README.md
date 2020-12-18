@@ -14,7 +14,7 @@ We are curious about how the internal and external features as well as area surr
 * [Kagle: House Sales in King County USA](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/main/kc_house_data.csv)
     * [Original location](https://www.kaggle.com/achyutanandaparida/dataset%20from%20%20house%20sales%20in%20king%20county,%20usa)
 * [Washington Zip Codes by Population](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/main/kc_house_data.csv)
-    * [Original Location](https://www.washington-demographics.com/zip_codes_by_population)
+    * [Original Location](https://www.unitedstateszipcodes.org/wa/)
 
 ### GitHub
 #### Who Worked on It
