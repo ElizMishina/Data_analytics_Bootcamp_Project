@@ -65,7 +65,12 @@ Description of preliminary data prepocessing:
 
 Machine Learning Model (Draft):
 
-Overview: We used Linear Regression & Random Forest Regressor as our models in order to measure how effectively we could predict the price of a house based on selected features. The model is preliminary and has not been refined to create an accurate test yet. This segment was used as a test run to see if our model could take in our inputs and create an output. See process below:
+Overview: We used Linear Regression & Random Forest Regressor as our models in order to measure how effectively we could predict the price of a house based on selected features. The model is preliminary and has not been refined to create an accurate test yet. This segment was used as a test run to see if our model could take in our inputs and create an output. 
+
+We used Linear Regression in order to measure the significance of the relationships between the independent variables and dependent variable
+We used Random Forest Regressor because of the fact that the model uses averaging in order to improve predictive accuracy and conrol over-fitting
+
+See process below:
 
     * Calculated the correlation coefficient of independent variables using Pearsons Correlation Coefficient
     * Selected features for model with a coefficient greater than 0.5. Correlations above 0.5 are considered to have a high level of correlation
@@ -76,3 +81,7 @@ Overview: We used Linear Regression & Random Forest Regressor as our models in o
     * Scaled and transformed X_train & X_test
     * Created Linear regression instance, trained and fit the testing sets, printed coefficients, mean squared error, and r-squared value
     * Created Random Forest Regressor model, trained and fit the testing sets, printed mean squared error, and r-squared value
+
+Limitiations to the models inlcude the following:
+    * Limited data on some of the selected features 
+    * Correlation coefficients not accurately representing the true correlation of independent variables to dependent variable
