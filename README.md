@@ -1,4 +1,4 @@
-# Deliverable 1
+# Segment 1
 
 **Problem Statement (Topic):** Predicting King County, USA housing prices using specific features
 
@@ -38,7 +38,7 @@ Brandon DeLuna & Savitha Sathyanathan
         * water front
         * view
 
-    Model (Random Forest Classifier/Clustering):
+    Model (Linear Regression/Random Forest Regressor/Clustering):
 
         * Predict price of home based on features such as # of bedrooms, # of bathrooms, square footage, etc.
         * Use p-value from multiple linear regressions to look at each independent variable to determine if there is a significant relationship with the dependent variable 
@@ -49,3 +49,30 @@ Brandon DeLuna & Savitha Sathyanathan
         * Optimize the machine learning model in order to improve accuracy
 
 
+# Segment 2
+
+## Machine Learning Model (Draft) 
+
+This is the draft model of our machine learning model. All data used is preliminary.
+
+Description of preliminary data prepocessing:
+
+    * Read in datasets 1 & 2 into jupyter notebook
+    * Checked for columns, missing data, and unique values in each dataset
+    * Merged the 2 datasets using the common "zipcode" column
+    * Checked for columns, missing data, and unique values in joined dataset
+    * Dropped columns in joined dataset that were deemed unnecessary for machine learning model
+
+Machine Learning Model (Draft):
+
+Overview: We used Linear Regression & Random Forest Regressor as our models in order to measure how effectively we could predict the price of a house based on selected features. The model is preliminary and has not been refined to create an accurate test yet. This segment was used as a test run to see if our model could take in our inputs and create an output. See process below:
+
+    * Calculated the correlation coefficient of independent variables using Pearsons Correlation Coefficient
+    * Selected features for model with a coefficient greater than 0.5. Correlations above 0.5 are considered to have a high level of correlation
+    * Created dataframe with only selected features
+    * Created variables for independant features and dependent feature
+    * Split the training/testing sets. I decided to have the training set test a random selection of 80% of the original data and the test set would have the remaining 20%
+    * Transformed y_train set into log in order to normalize distribution of data
+    * Scaled and transformed X_train & X_test
+    * Created Linear regression instance, trained and fit the testing sets, printed coefficients, mean squared error, and r-squared value
+    * Created Random Forest Regressor model, trained and fit the testing sets, printed mean squared error, and r-squared value
