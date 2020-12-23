@@ -51,7 +51,7 @@ Brandon DeLuna & Savitha Sathyanathan
 
 # Segment 2
 
-## Machine Learning Model (Draft) 
+## Machine Learning Model (Draft): Brandon DeLuna & Savitha Sathyanathan 
 
 This is the draft model of our machine learning model. All data used is preliminary.
 
