@@ -83,5 +83,6 @@ See process below:
     * Created Random Forest Regressor model, trained and fit the testing sets, printed mean squared error, and r-squared value
 
 Limitiations to the models inlcude the following:
+
     * Limited data on some of the selected features 
     * Correlation coefficients not accurately representing the true correlation of independent variables to dependent variable
