@@ -68,7 +68,7 @@ Machine Learning Model (Draft):
 Overview: We used Linear Regression & Random Forest Regressor as our models in order to measure how effectively we could predict the price of a house based on selected features. The model is preliminary and has not been refined to create an accurate test yet. This segment was used as a test run to see if our model could take in our inputs and create an output. 
 
 We used Linear Regression in order to measure the significance of the relationships between the independent variables and dependent variable
-We used Random Forest Regressor because of the fact that the model uses averaging in order to improve predictive accuracy and conrol over-fitting
+We used Random Forest Regressor because of the fact that the model uses averaging in order to improve predictive accuracy and control over-fitting
 
 See process below:
 
