@@ -61,14 +61,14 @@ N/A
 * [Savitha's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/README.md)
 
 Data Preprocessing  
-feature selection /n
-test and train machine learning model
+feature selection  
+test and train machine learning model  
 linear regression model, random forest regressor, XG Boost
 
 #### Database
 * [Caleb's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md)
 
-Took data from previous section,
+Took data from previous section  
 created and joind the tables using SQLlite
 
 
