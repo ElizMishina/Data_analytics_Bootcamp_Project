@@ -60,7 +60,7 @@ N/A
 * [Brandon's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Brandon/Brandon/README.md)
 * [Savitha's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/README.md)
 
-Data Preprocessing,
+Data Preprocessing  
 feature selection /n
 test and train machine learning model
 linear regression model, random forest regressor, XG Boost
