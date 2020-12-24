@@ -60,8 +60,17 @@ N/A
 * [Brandon's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Brandon/Brandon/README.md)
 * [Savitha's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/README.md)
 
+data Preprocessing
+feature selection
+rest and train machine learning model
+linear regression model, random forest regressor, XG Boost
+
 #### Database
 * [Caleb's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md)
+
+Took data from previous section,
+created and joind the tables using SQLlite
+
 
 #### Dashboard
 * [Elizabeth's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md)
