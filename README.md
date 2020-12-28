@@ -9,7 +9,21 @@ Presentation: Everyone
 Github: Master branch origanization - Elizabeth, Branches - Everyone  
 Machine Learning model: Savitha and Brandon  
 Database: Caleb  
+Dashboard: Elizabeth  
 
+**Data Exploration:**  
+Two datasets were used as a part of this project. Both the files were 
+
+**Data Analysis:**  
+
+
+### Machine Learning Model: 
+
+**Data Preprocessing:**  
+
+**Feature Selection:**  
+
+**Model Selection:**
 
 
 
