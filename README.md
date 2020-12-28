@@ -2,7 +2,7 @@
 
 [Master Readme Link](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/tree/main)
 
-## Deliverable 2
+## Deliverable 2  
 
 **Worked on:**  
 Presentation: Everyone  
@@ -12,20 +12,56 @@ Database: Caleb
 Dashboard: Elizabeth  
 
 **Data Exploration:**  
-Two datasets were used as a part of this project. Both the files were 
+Two datasets were used as a part of this project. Both the files were reviewed to determine the number of rows, the columns available and the data type for the column.
 
 **Data Analysis:**  
+The dataset was analysed in detail during the data preprocessing step. Initial analysis includes determining the data types, null values in the dataset, duplicate entries, looking at unique values to create bins.
 
+### Machine Learning Model:  
 
-### Machine Learning Model: 
+[Link to Machine Learning Model](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/Machine%20Learning%20Model/House_Price_Prediction_ML.ipynb)
 
 **Data Preprocessing:**  
+The steps for data preprocessing are listed below
+
+* Drop any null rows
+* Drop any rows that do not have price
+* Format the date column to extract the sold year
+* Calculate the sold age and renovated age column for prediction (since encoding the year column might not yield required results, the age is calculated for prediction)
+* Merged dataset to get primary city for each zipcode (Will be performed using SQL Alchemy after database integration)
+* Drop columns that are not needed (id,lat,long,sqft_living15,sqft_lot15,date,yr_built,yr_renovated,zipcode)
+* The primary city column was encoded using custom encoding (rank based on average price)
 
 **Feature Selection:**  
+Feature selection was performed using two different methods
 
-**Model Selection:**
+* Pearsons Correlation Coefficient was used to determine the correlation between the price and other columns
+* Select Kbest score was used to determine the significance of each column to the price
+* The results were plotted as a bar graph and the results were similar
+* Features with correlation greater that 0.3 were selected for prediction
 
+**Model Selection:**  
 
+* X dataset was created using the features selected in the feature selection process
+* Y dataset was created using the price column
+* The dataset was split into test and train datasets using train_test_split from sklearn
+* The test and trained datasets were then scaled using StandardScaler from sklearn
+* Three models listed below were trained and tested and the root mean square value was calculated
+    - Randon Forest Regression
+    - XG Boost Regression
+    - Linear Regression
+* The predicted values were plotted against actuals
+* Based on the results, the linear regression model had the best results
+
+**Model Predictions**  
+
+* The values required for house price prediction are captured from the user (Hardcoded for now. Have to integrate with the webpage)
+* The city_rank is calculated based on the primary city
+* A dataframe is created with the available values for features entered and null values for features that were not entered
+* The housedata is filtered for the city that the user entered
+* A for loop was created to loop through columns that do not have values and the mean value based on the filtered dataset is populated for these columns
+* The predicted dataframe is scaled using previous scalar model
+* The house price is then predicted using the previously trained model
 
 ## Deliverable 1
 
