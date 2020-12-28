@@ -2,6 +2,17 @@
 
 [Master Readme Link](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/tree/main)
 
+## Deliverable 2
+
+**Worked on:**  
+Presentation: Everyone  
+Github: Master branch origanization - Elizabeth, Branches - Everyone  
+Machine Learning model: Savitha and Brandon  
+Database: Caleb  
+
+
+
+
 ## Deliverable 1
 
 **Worked on:**  
