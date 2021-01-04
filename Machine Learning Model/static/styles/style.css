@@ -1,0 +1,40 @@
+.jumbotron 
+  {
+    background-image: url("Banner1.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+  }
+
+body {
+  color: #000000;
+}
+
+ul {
+  list-style-type: none; 
+  text-align: left;
+}
+
+label {
+  float: left;
+  width: 200px;
+  padding-right: 24px;
+  font-size: large;
+  font-weight: bold;
+}
+
+input {
+  float: left;
+  width: calc(100% - 200px);
+  font-size: large;
+}
+
+button {
+  float: right;
+  width: calc(100% - 200px);
+  font-size: large;
+  font-weight: bold;
+}
+
+p {
+  font-size: large;
+}

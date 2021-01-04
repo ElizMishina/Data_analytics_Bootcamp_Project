@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body ></body> 
+<!--
+    <div class="wrapper">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">House Price Prediction</a>
+        </nav>
+    </div>
+-->
+    <div class="jumbotron">
+        <h1>House Price Prediction</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <h3>House Price Prediction<small><br></h3>
+                <p>Enter the values in the form given to predict house prices. 
+                    <br>City name is a mandatory field. 
+                    Other fields can be left blank.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <form action="{{url_for("predict_api")}}" method="POST">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <label for="city">City</label>
+                        <input type="text" name="city" placeholder="" id="city" />
+                    </li>
+                    <li class="list-group-item">
+                        <label for="sqft_living">SQFT Living</label>
+                        <input type="text" name="sqft_living" placeholder="" id="sqft_living" />
+                    </li>
+                    <li class="list-group-item">
+                        <label for="sqft_above">SQFT Above</label>
+                        <input type="text" name="sqft_above" placeholder="" id="sqft_above" />
+                    </li>
+                    <li class="list-group-item">
+                        <label for="sqft_basement">SQFT Basement</label>
+                        <input type="text" name="sqft_basement" placeholder="" id="sqft_basement" />
+                    </li>
+                    <li class="list-group-item">
+                        <label for="bedrooms" >Bedrooms</label>
+                        <input type="text" name="bedrooms" placeholder="" id="bedrooms" />
+                    </li>
+                    <li class="list-group-item">
+                        <label for="bathrooms" >Bathrooms</label>
+                        <input type="text" name="bathrooms" placeholder="" id="bathrooms" />
+                    </li>
+                    <li class="list-group-item">
+                        <label for="view" >View</label>
+                        <input type="text" name="view" placeholder="" id="view" />
+                    </li>
+
+                    <li class="list-group-item">
+                        <label for="grade" >Grade</label>
+                        <input type="text" name="grade" placeholder="" id="grade" />
+                    </li>
+                    <li class="list-group-item">
+                        <button type="submit">Predict</button> 
+                    </li>
+                </ul>
+                </form>
+            </div>
+            <div class="col-md-9">
+                <h2>Correlation between House Features and House Price</h2>
+                <img src="../static/styles/House_Price_Corr.png" alt="House_Price_Corr" width="775" height="500">    
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+</body>
+</html>
