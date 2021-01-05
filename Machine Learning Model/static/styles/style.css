@@ -35,6 +35,23 @@ button {
   font-weight: bold;
 }
 
+select {
+  float: left;
+  width: calc(100% - 200px);
+  font-size: large;
+}
+
+
 p {
+  font-size: large;
+}
+
+.table-style {
+  width: 100%;
+  font-size: large;
+}
+
+.table-style td {
+  width: 100px;
   font-size: large;
 }

@@ -4,19 +4,26 @@ from flask import Flask, request, render_template
 import xgboost
 import pickle
 
+# Create Flask App
 app = Flask(__name__)
 
+# Load the scalar and regression model pickle files
 scalar_pk = pickle.load(open("hp_scalar.pkl","rb"))
 xgbmodel_pk = pickle.load(open("hp_xgbmodel.pkl","rb"))
 
-# Loading housedata
+# Loading housedata and average price data
 df_housedata = pd.read_csv("formatted_housedata.csv")
 average_price_df = pd.read_csv("average_price_df.csv")
 
+# Create city list for dropdown
+city_list = average_price_df["primary_city"].tolist()
+
+# Homepage app route
 @app.route("/")
 def home():
-     return render_template("index.html")
+    return render_template("index.html",city_list=city_list)
 
+# Predict app route
 @app.route("/predict", methods=['GET',"POST"])
 def predict_api():
         # Get input from form
@@ -51,18 +58,16 @@ def predict_api():
             if pred_df.loc[0,column] == "":
                 pred_df.loc[0,column] = predict_filter_df.groupby("city_rank")[column].mean().values[0]
 
-        # # Create input for prediction
-        # pred_input = np.array([[sqft_living,grade,sqft_above,bathrooms,city_rank,view,sqft_basement,bedrooms]])
-        # print(pred_input)
-
-        # Scale the input array
+        # Scale the prediction input dataset 
         pred_scaled = scalar_pk.transform(pred_df)
         
         # Predict house price using xgboost model
         prediction = xgbmodel_pk.predict(pred_scaled)
         prediction = np.exp(prediction)
-        print(prediction)
-        return render_template("predict.html", prediction=prediction[0])
+
+        # Create html table for diaplay
+        pred_table = pred_df.to_html(classes='data', header="true", index=False, justify="left", col_space=100)
+        return render_template("predict.html", prediction=prediction[0],city_list=city_list,tables=[pred_table])
 
 if __name__ == '__main__':
     app.run()

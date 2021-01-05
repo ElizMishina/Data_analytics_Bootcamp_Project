@@ -39,8 +39,15 @@
                 <form action="{{url_for("predict_api")}}" method="POST">
                 <ul class="list-group">
                     <li class="list-group-item">
+                        <!-- <label for="city">City</label> 
+                        <input type="text" name="city" placeholder="" id="city" required/> -->
                         <label for="city">City</label>
-                        <input type="text" name="city" placeholder="" id="city" />
+                        <Select type="text" name="city" placeholder="" id="city" required>
+                        <option value="{{city_list[0]}}" selected>{{city_list[0]}}</option>
+                            {% for city in city_list[1:] %}
+                              <option value="{{city}}">{{city}}</option>
+                            {% endfor %}
+                        </Select>
                     </li>
                     <li class="list-group-item">
                         <label for="sqft_living">SQFT Living</label>
