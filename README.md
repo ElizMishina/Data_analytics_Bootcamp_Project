@@ -1,4 +1,4 @@
-# Data_analytics_Bootcamp_Project
+# Data_Analytics_Bootcamp_Project
 ## Segement 1
 ### Presentation
 #### Who Worked on It
