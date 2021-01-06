@@ -48,15 +48,15 @@ N/A
 
 
 ## Segement 2
-#### Presentation
+### Presentation
 * Everyone
 * [Elizabeth](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md) putting together the presentation
 * [Presentation](https://docs.google.com/presentation/d/1tu8kpEW_eMj6sY7mHG4yKu1wUKrHQQwbZeIkFiv13WE/edit?usp=sharing)
 
-#### GitHub
+### GitHub
 * [Elizabeth's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md)
 
-#### Machine Learning Model
+### Machine Learning Model
 * [Brandon's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Brandon/Brandon/README.md)
 * [Savitha's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/README.md)
 
@@ -65,17 +65,37 @@ feature selection
 test and train machine learning model  
 linear regression model, random forest regressor, XG Boost
 
-#### Database
+### Database
 * [Caleb's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md)
 
 Took data from previous section  
 created and joind the tables using SQLlite
 
 
-#### Dashboard
+### Dashboard
 * [Elizabeth's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md)
 * [Storyboard](https://docs.google.com/presentation/d/1zPjLQjZFv1hgx527TvCYcwXP_tY3SkvMWfn8anygJrc/edit?usp=sharing)
 
 
 ## Segement 3
+### Presentation
+[Presentation Slides](https://docs.google.com/presentation/d/1tu8kpEW_eMj6sY7mHG4yKu1wUKrHQQwbZeIkFiv13WE/edit?usp=sharing)
+* Orginised by [Elizabeth](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md)
+* Information added by everyone
+
+### GitHub
+* Orginized by [Elizabeth](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md)
+
+### Machine Learning Model
+* [Brandon's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Brandon/Brandon/README.md)
+* [Savitha's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/README.md)
+
+### Database
+N/A
+
+### Dashboard
+[Story Board](https://docs.google.com/presentation/d/1zPjLQjZFv1hgx527TvCYcwXP_tY3SkvMWfn8anygJrc/edit?usp=sharing)
+[Savitha](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/README.md) started the base code
+[Elizabeth](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md) and [Caleb](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md) put it together
+
 ## Segement 4
