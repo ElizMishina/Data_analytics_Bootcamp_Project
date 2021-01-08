@@ -86,3 +86,37 @@ Limitiations to the models inlcude the following:
 
     * Limited data on some of the selected features 
     * Correlation coefficients not accurately representing the true correlation of independent variables to dependent variable
+
+
+# Segment 3
+
+Features to drop:
+
+    * type
+    * zip
+    * decommissioned
+    * acceptable_cities
+    * unacceptable_cities
+    * state
+    * county
+    * timezone
+    * area_codes
+    * world_region
+    * country
+    * latitude
+    * longitude
+    * irs_estimated_population_2015
+    * id
+    * sqft_above
+    * sqft_basement
+    * lat
+    * long
+    * sqft_living15
+    * sqft_lot15
+
+
+Features to encode (change strings to numeric categories)
+
+    * zip
+    * primary city
+    
