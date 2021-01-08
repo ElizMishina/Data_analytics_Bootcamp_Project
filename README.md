@@ -119,4 +119,9 @@ Features to encode (change strings to numeric categories)
 
     * zip
     * primary city
+
+
+# Segment 4
+
+Presentation - data preprocessing, machine learning model, xgboost model
     
