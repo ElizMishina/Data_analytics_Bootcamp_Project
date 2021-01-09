@@ -65,9 +65,77 @@ def predict_api():
         prediction = xgbmodel_pk.predict(pred_scaled)
         prediction = np.exp(prediction)
 
+        # Rename columns for display in HTML
+        pred_details = pred_df.rename(columns={"sqft_living" : "SQFT Living",
+                                           "sqft_basement" : "SQFT Basement",
+                                           "sqft_above" : "SQFT Above",
+                                           "bedrooms" :"Bedrooms",
+                                           "bathrooms" : "Bathrooms",
+                                           "grade" : "Grade",
+                                           "view" : "View" })
+        pred_details["City"] = city
+        pred_details = pred_details[["City","SQFT Living","SQFT Above","SQFT Basement",
+                                     "Bedrooms","Bathrooms","View","Grade"]]
+
+        # Get Maximum Price Row and format for html display 
+        max_details = predict_filter_df[predict_filter_df.price == predict_filter_df.price.max()]
+        max_details['price'] = max_details['price'].astype('int64') 
+        max_details = max_details.rename(columns={"sqft_living" : "SQFT Living",
+                                           "sqft_basement" : "SQFT Basement",
+                                           "sqft_above" : "SQFT Above",
+                                           "bedrooms" :"Bedrooms",
+                                           "bathrooms" : "Bathrooms",
+                                           "grade" : "Grade",
+                                           "view" : "View",
+                                           "price" : "Price"})
+        max_details["City"] = city
+        max_details = max_details[["City","Price","SQFT Living","SQFT Above","SQFT Basement",
+                                     "Bedrooms","Bathrooms","View","Grade"]]
+        max_details = max_details.transpose()
+
+        # Get Maximum Price Row and format for html display 
+        min_details = predict_filter_df[predict_filter_df.price == predict_filter_df.price.min()]
+        min_details['price'] = min_details['price'].astype('int64') 
+        min_details = min_details.rename(columns={"sqft_living" : "SQFT Living",
+                                           "sqft_basement" : "SQFT Basement",
+                                           "sqft_above" : "SQFT Above",
+                                           "bedrooms" :"Bedrooms",
+                                           "bathrooms" : "Bathrooms",
+                                           "grade" : "Grade",
+                                           "view" : "View",
+                                           "price" : "Price"})
+        min_details["City"] = city
+        min_details = min_details[["City","Price","SQFT Living","SQFT Above","SQFT Basement",
+                                     "Bedrooms","Bathrooms","View","Grade"]]
+        min_details = min_details.transpose()
+       
+        # Get Maximum Price Row and format for html display 
+        predict_filter_df["Median_Price"] = predict_filter_df.price.median()
+        predict_filter_df["Diff_From_Median"] = predict_filter_df['price'] - predict_filter_df["Median_Price"]
+        predict_filter_df["Diff_From_Median"] = predict_filter_df["Diff_From_Median"].abs()
+        median_details = predict_filter_df[predict_filter_df.Diff_From_Median == predict_filter_df.Diff_From_Median.min()]
+        median_details['price'] = median_details['price'].astype('int64') 
+        median_details = median_details.rename(columns={"sqft_living" : "SQFT Living",
+                                           "sqft_basement" : "SQFT Basement",
+                                           "sqft_above" : "SQFT Above",
+                                           "bedrooms" :"Bedrooms",
+                                           "bathrooms" : "Bathrooms",
+                                           "grade" : "Grade",
+                                           "view" : "View",
+                                           "price" : "Price"})
+        median_details["City"] = city
+        median_details = median_details[["City","Price","SQFT Living","SQFT Above","SQFT Basement",
+                                     "Bedrooms","Bathrooms","View","Grade"]]
+        median_details = median_details.transpose()  
+
         # Create html table for diaplay
-        pred_table = pred_df.to_html(classes='data', header="true", index=False, justify="left", col_space=100)
-        return render_template("predict.html", prediction=prediction[0],city_list=city_list,tables=[pred_table])
+        pred_table = pred_details.to_html(classes='data', header="true", index=False, justify="left")
+        max_table = max_details.to_html(classes='maxdata',header=False, justify="left")
+        min_table = min_details.to_html(classes='maxdata', header=False,justify="left")
+        median_table = median_details.to_html(classes='maxdata',header=False,justify="left")
+
+        return render_template("predict.html", prediction=prediction[0],city_list=city_list,tables=[pred_table],
+                                maxtable=[max_table],mintable=[min_table],mediantable=[median_table])
 
 if __name__ == '__main__':
     app.run()
