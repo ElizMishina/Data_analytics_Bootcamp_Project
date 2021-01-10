@@ -41,17 +41,33 @@ select {
   font-size: large;
 }
 
-
 p {
   font-size: large;
 }
 
-.table-style {
-  width: 100%;
+.data th {
+  width: 300px;
+  table-layout: fixed;
+  background-color: #77dd96;
+  color: rgb(0, 0, 0);
   font-size: large;
 }
 
-.table-style td {
-  width: 100px;
+.data td {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: large;
+}
+
+.maxdata th {
+  width: 300px;
+  background-color: #77dd96;
+  color: rgb(0, 0, 0);
+  font-size: large;
+}
+
+.maxdata td {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   font-size: large;
 }
