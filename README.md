@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Data_analytics_Bootcamp_Project
 ## Segment 1
 The topic we selected, the reason for selecting this topic, and the questions we wish to answer are in the [main Branch ReadMe file](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/main/README.md).
@@ -29,3 +30,5 @@ In this segment I will be starting to put together the DashBoard. We will be cre
 
 ## Segment 3
 ## Segment 4
+=======
+
