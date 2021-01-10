@@ -3,11 +3,12 @@ import numpy as np
 from flask import Flask, request, render_template
 import xgboost
 import pickle
+import os
+
 
 # Create Flask App
 app = Flask(__name__)
 
-# Load the scalar and regression model pickle files
 scalar_pk = pickle.load(open("hp_scalar.pkl","rb"))
 xgbmodel_pk = pickle.load(open("hp_xgbmodel.pkl","rb"))
 
