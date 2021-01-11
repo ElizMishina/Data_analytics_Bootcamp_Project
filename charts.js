@@ -25,19 +25,21 @@ function unpack(rows, key) {
     { return row[key]; });}
     
     console.log(rows);
-    bedro = unpack(rows, 'bedrooms')
+    
 
 var trace1 = {
 	x:unpack(rows, 'house_age'), y: unpack(rows, 'price'), z: unpack(rows, 'city_rank'),
     mode: 'markers',
-    hovertemplate: '<b>Price</b>: $%{y:,.2f}' + '<br><b>House Age</b>: %{x}<br>' + '<b>City Rank</b>: %{z}<br>',
+    hovertemplate: '<b>Price</b>: $%{y:,.2f}' + '<br><b>House Age</b>: %{x}<br>' + '<b>City Rank</b>: %{z}<br>' + '<b>Bedrooms</b>: %{bedro}<br>',
 	marker: {
 		size: unpack(rows, 'bedrooms'),
 		line: {
-		color: unpack(rows, 'Class'),
+        color: unpack(rows, 'Class'),
+        symbol: unpack(rows, 'Class'),
         width: 10},
     },
-	type: 'scatter3d'
+    type: 'scatter3d'
+    
 };
 
 /* var trace2 = {
@@ -55,7 +57,7 @@ var trace1 = {
 
 var data = [trace1];
 var layout = {
-    color: unpack(rows, 'class'),
+    color: unpack(rows, 'Class'),
     width: 500,
     height: 500,
     margin: {

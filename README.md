@@ -90,35 +90,31 @@ Limitiations to the models inlcude the following:
 
 # Segment 3
 
-Features to drop:
+## Machine Learning Model (Final): Brandon DeLuna & Savitha Sathyanathan 
 
-    * type
-    * zip
-    * decommissioned
-    * acceptable_cities
-    * unacceptable_cities
-    * state
-    * county
-    * timezone
-    * area_codes
-    * world_region
-    * country
-    * latitude
-    * longitude
-    * irs_estimated_population_2015
-    * id
-    * sqft_above
-    * sqft_basement
-    * lat
-    * long
-    * sqft_living15
-    * sqft_lot15
+This is the final version and working model of our machine learning algorithm we will be using in our project.
+
+Data Preprocessing:
+
+    * Create a connection with the database file through sqlite3
+    * Read in the SQL query and create a dataframe
+    * Check for columns & datatypes
+    * Dropped unneccessary columns
+    * Check the number of unique values in each columns to see if we needed to use binning, none was needed
+    * Check for missing data in each column
+    * Converted "date" string to show only the year
+    * Converted dataype of all columns with dates to integers
+    * Created a ranking system for "primary city" based on the average house price for each city and merged it into existing datframe
+    * Filtered out data points with price > 4,000,000.00 to remove outliers
+
+Feature Engineering & Feature Selection:
+
+    * Once our database was created with our working data we used the Pearsons Correlation Coefficient in order to find the best features to use for our machine learning model
+    * We chose features with a Pearson Coefficient of 0.5 and above because having a coefficient of 0.5 or more shows a strong correlation to the dependent variable
+
+Machine Learning:
 
 
-Features to encode (change strings to numeric categories)
-
-    * zip
-    * primary city
 
 
 # Segment 4
