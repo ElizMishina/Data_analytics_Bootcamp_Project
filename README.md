@@ -141,7 +141,7 @@ Machine Learning:
             - RMSE: 88,225.33
             - MSE: 21,978,220,607.50
             - R^2: 0.82
-        * Of all 3 metrics we used to measure accuracy XGBoost had the lowest RMSE, MSE. and R^2 scores.
+        * Of all 3 metrics we used to measure accuracy XGBoost had the lowest RMSE, MSE, and R^2 scores.
         * The XGBoost model was the model we decided to use for our machine learning project
     
     * After testing we used unsupervised learning to visualize our data with clusters
