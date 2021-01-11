@@ -10,15 +10,16 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous"
     />
-    <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <link rel="stylesheet" href= "{../static/style/style.css}">
 </head>
 
+<style>
+    body {background-image: url(../static/styles/background.jpg);}
+    
+</style>
 
 <body>
-    <style>
-        body {background-image: url(../static/styles/background.jpg);}
-    </style>
-
+   
     <div class="jumbotron">
         <h1>House Price Prediction</h1>
         <h2>King County, Washington</h2>
@@ -33,15 +34,15 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
+    <div class="container-fluid" >
+        <div class="row" >
             <div class="col-md-3">
-                <form action="{{url_for("predict_api")}}" method="POST">
-                <ul class="list-group">
+                <form action="{{url_for( predict_api )}}"  method="POST" >
+                <ul class="list-group" >
                     <li class="list-group-item">
                         <!-- <label for="city">City</label> 
                         <input type="text" name="city" placeholder="" id="city" required/> -->
-                        <label for="city">City</label>
+                        <label for="city">City</label >
                         <Select type="text" name="city" placeholder="" id="city" required>
                         <option value="{{city_list[0]}}" selected>{{city_list[0]}}</option>
                             {% for city in city_list[1:] %}
@@ -49,7 +50,7 @@
                             {% endfor %}
                         </Select>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" > 
                         <label for="sqft_living">SQFT Living</label>
                         <input type="text" name="sqft_living" placeholder="" id="sqft_living" />
                     </li>
