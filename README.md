@@ -16,17 +16,24 @@ In this segment I will be starting to put together the [presentation](https://do
 * descripition of the data exploration phase of the project
 * description of the analysis phase of the project
 
-In this segment i will continue to geep the [Main GitHub Page](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project) orginised.
+In this segment i will continue to keep the [Main GitHub Page](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project) orginised.
 There are/will be files for each part of the project:
 * [Resource](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/tree/main/Resources)
-* [DataBase]()
-* [Machine Learning Model]()
-* [Dashbord]()
+* [Machine Learning Model](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/tree/main/Machine_Learning_Model)
+
 As well as the [ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/main/README.md) file, where there are links to everyone's idividual ReadMe file as well as a brief over view of what everyone is doing in each segment.
 
 In this segment I will be starting to put together the DashBoard. We will be creating a website. However, there is a [Storyboard](https://docs.google.com/presentation/d/1zPjLQjZFv1hgx527TvCYcwXP_tY3SkvMWfn8anygJrc/edit?usp=sharing) in google drive.
 
 
 ## Segment 3
+In this segment 
+* we split who presents which slides in the presentation [presentation](https://docs.google.com/presentation/d/1tu8kpEW_eMj6sY7mHG4yKu1wUKrHQQwbZeIkFiv13WE/edit?usp=sharing) and started to put more details in on each slide.
+    * My tassk will be to edit the presentation at the end
+* I have continued to keep the [Main GitHub Page](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project) up to date
+    * there was a lot of merging involved
+* Savitha and I have also been putting together the Dashboard, we will be attmpting to put it online in the next segment.
+
+
 ## Segement 4
 
