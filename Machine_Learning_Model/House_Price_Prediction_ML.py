@@ -5,7 +5,6 @@ import xgboost
 import pickle
 import os
 
-
 # Create Flask App
 app = Flask(__name__)
 

@@ -122,14 +122,11 @@ Data Preprocessing
 feature selection  
 test and train machine learning model  
 linear regression model, random forest regressor, XG Boost
-
 ### Database
 * [Caleb's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md)
 
 Took data from previous section  
 created and joind the tables using SQLlite
-
-
 ### Dashboard
 * [Elizabeth's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md)
 * [Storyboard](https://docs.google.com/presentation/d/1zPjLQjZFv1hgx527TvCYcwXP_tY3SkvMWfn8anygJrc/edit?usp=sharing)
@@ -155,6 +152,10 @@ N/A
 [Story Board](https://docs.google.com/presentation/d/1zPjLQjZFv1hgx527TvCYcwXP_tY3SkvMWfn8anygJrc/edit?usp=sharing)
 [Savitha](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/README.md) started the base code
 [Elizabeth](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md) and [Caleb](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md) put it together
+<<<<<<< HEAD
 
 ## Segement 4
 >>>>>>> d3ef4548eea8516ff36544c255df4d8f1fd938fa
+=======
+## Segement 4
+>>>>>>> origin/main
