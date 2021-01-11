@@ -36,7 +36,8 @@
 **Table Creation**
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/create_table.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/create_table.png" alt="" style="max-width:50%;"></a>
 
-
+**Populate and Clean Data**
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202021-01-11%20at%203.20.18%20AM.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202021-01-11%20at%203.20.18%20AM.png" alt="" style="max-width:50%;"></a>
 
 
 
