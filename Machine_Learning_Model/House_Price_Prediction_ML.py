@@ -71,7 +71,7 @@ def predict_api():
                                            "sqft_basement" : "SQFT Basement",
                                            "sqft_above" : "SQFT Above",
                                            "bedrooms" :"Bedrooms",
-                                           "bathrooms" : "Bathrooms",
+                                            "bathrooms" : "Bathrooms",
                                            "grade" : "Grade",
                                            "view" : "View" })
         pred_details["City"] = city
