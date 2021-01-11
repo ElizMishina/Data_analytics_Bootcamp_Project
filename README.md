@@ -114,7 +114,27 @@ Feature Engineering & Feature Selection:
 
 Machine Learning:
 
+    * Began by setting the selected pearson features as our independent variables
+    * Set dependent variable as price
+    * Split the data into training/testing sets
+    * Transformed y_train dataset to log in order to normalize the data
+    * Scaled our X_train and X_test datasets in order to arrange our data into a standard normal distribution
 
+    * We tested our data with the 3 models below:
+        * Created a Linear Regression model with sklearn
+            - Linear approach to modelling the relationship between the independent and dependent variables
+        * Created a Random Forest Regressor model with sklearn
+            - Meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting
+        * Created a XGBoost regressor model
+            - Decision tree based ensemble machine learning algorithm that uses gradient boosting framework
+    
+    * The below are the metrics we used to measure the accuracy of our models:
+        * Root Mean Squared Error (RMSE)
+            - Measures the amount of predictions errors there are, value closer to 0 are better
+        * Mean Squared Error (MSE)
+            - Measures the quality of the estimator, values closer to 0 are better
+        * Coefficient of Determination (R^2)
+            - Measures how accurate the prediction is, an R^2 value of 1 would represent a perfect prediction
 
 
 # Segment 4
