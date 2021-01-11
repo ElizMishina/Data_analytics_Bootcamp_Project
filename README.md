@@ -29,8 +29,14 @@
 
 # Deliverable 2
 **Established connection to housedata.db**
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/initialize.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/initialize.png" alt="" style="max-width:50%;"></a>
 
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202021-01-10%20at%208.45.21%20PM.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202021-01-10%20at%208.45.21%20PM.png" alt="" style="max-width:50%;"></a>
 
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/initialize.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/initialize.png" alt="" style="max-width:50%;"></a>
+**Table Creation**
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/create_table.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/create_table.png" alt="" style="max-width:50%;"></a>
+
+
+
+
 
