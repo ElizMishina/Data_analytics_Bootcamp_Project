@@ -135,7 +135,18 @@ Machine Learning:
             - Measures the quality of the estimator, values closer to 0 are better
         * Coefficient of Determination (R^2)
             - Measures how accurate the prediction is, an R^2 value of 1 would represent a perfect prediction
+    
+    * The below is the conlusion of our testing: 
+        * The XGBoost regressor model yielded the highest accuracy scores. 
+            - RMSE: 88,225.33
+            - MSE: 21,978,220,607.50
+            - R^2: 0.82
+        * Of all 3 metrics we used to measure accuracy XGBoost had the lowest RMSE, MSE. and R^2 scores.
+        * The XGBoost model was the model we decided to use for our machine learning project
 
+Observations:
+
+    * The machine learning model we used for testing in segment 2 changed in segment 3. Initially we only used Linear Regression and Random Forest Regressor. However, after further research of models we could use we came across the XGBoost model which ended up yielding higher accuracy scores and proved to be the better performing model.
 
 # Segment 4
 
