@@ -42,3 +42,5 @@
 **Table Inner Join**
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/innter_join.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/innter_join.png" alt="" style="max-width:50%;"></a>
 
+# Deliverable 3
+https://docs.google.com/presentation/d/1tu8kpEW_eMj6sY7mHG4yKu1wUKrHQQwbZeIkFiv13WE/edit#slide=id.gabc00f58ad_0_25
