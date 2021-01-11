@@ -29,10 +29,5 @@
 
 # Deliverable 2
 **Established connection to housedata.db**
-    
-**Create tables in database with CSV (SQL)**
-
-**Read tables into Pandas using SQLAlchemy/SQLlite**
-    
-**Clean up data if needed**
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202021-01-10%20at%208.45.21%20PM.png"><img src="https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/Photos/Screen%20Shot%202021-01-10%20at%208.45.21%20PM.png" alt="" style="max-width:100%;"></a>
 
