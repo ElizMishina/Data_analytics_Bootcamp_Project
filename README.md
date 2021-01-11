@@ -2,6 +2,50 @@
 
 [Master Readme Link](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/tree/main)
 
+## Deliverable 3
+
+**Worked on:**  
+Presentation: Everyone  
+Github: Master branch origanization - Elizabeth, Branches - Everyone  
+Machine Learning model: Savitha and Brandon  
+Database: Caleb  
+Dashboard: Savitha and Elizabeth  
+
+**Technologies, languages, tools:**  
+
+- Python: Pandas, Numpy, SKlearn, XGBoost, Pickle, Matplotlib, SQLlite3, SQLalchemy, Flask  
+- SQLLite Database  
+- HTML, CSS  
+- Machine Learning Algorithm: Random Forest, XGBoost, Random Forest, Kmean Clustering  
+
+**Model Choice**  
+There was no change to model selection between segment 2 and segment 3. The details are in the Deliverable 2 section of readme (below)
+
+**Model Training**  
+
+- The processed data was split into test and train dataset using the "train_test_split" module from sklearn  
+- The X test and train datasets were then standardised using "Standard Scalar"  
+- The standardised dataset was then used to train the model and then the test data was used to test the accracy of the model
+
+**Accuracy Score**  
+
+- Since the Machine learning model used is a regression model, the Root Mean Squared and R Squared values were used to test the accuracy of the model
+- The R Squared value for the model are listed below
+    - XGBoost: 0.77
+    - Random Forest Regressor: 0.75
+    - Linear Regressor: 0.69
+
+**Dashboard**
+
+- HTML Webpage was used to create the house price prediction [Link to HTML Templates](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/tree/ssathya/Machine%20Learning%20Model/templates)
+- The trained model was downloaded as a pickle file for future use
+- A flask app was created to render html template and get input from the user [Link to Flask App](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/Machine%20Learning%20Model/app.py)
+- The webpage contains
+    - A chart that plots correlation between the features and house price 
+    - A interactive chart that shows the house clusters based on the features (Output of Kmeans)
+    - A form to get input from user for the house features.
+    - The house price will then be predicted based on the trained model and the the results will be displayed to the user.
+
 ## Deliverable 2  
 
 **Worked on:**  
@@ -9,7 +53,7 @@ Presentation: Everyone
 Github: Master branch origanization - Elizabeth, Branches - Everyone  
 Machine Learning model: Savitha and Brandon  
 Database: Caleb  
-Dashboard: Elizabeth  
+Dashboard: Savitha and Elizabeth  
 
 **Data Exploration:**  
 Two datasets were used as a part of this project. Both the files were reviewed to determine the number of rows, the columns available and the data type for the column.
@@ -46,12 +90,14 @@ Feature selection was performed using two different methods
 * Y dataset was created using the price column
 * The dataset was split into test and train datasets using train_test_split from sklearn
 * The test and trained datasets were then scaled using StandardScaler from sklearn
-* Three models listed below were trained and tested and the root mean square value was calculated
+* Three models listed below were trained and tested and the root mean square and R Squared value was calculated
     - Randon Forest Regression
     - XG Boost Regression
     - Linear Regression
 * The predicted values were plotted against actuals
-* Based on the results, the linear regression model had the best results
+* Based on the results, the XGBoost model had the best results for Root mean squared and R Squared values and was choosen 
+* XGBoost predicts the model the results more accurately compared to other models
+* XGBoost  is more likely to overfit compared to Randomforest or Linear Regression
 
 **Model Predictions**  
 
