@@ -1,4 +1,4 @@
-# Deliverable 1**
+# Deliverable 1
 
 **Problem Statement (Topic):** Predict the value of a King County, USA home based on key attributes such as # of bedrooms, bathrooms, house size, lot size, etc.
 
