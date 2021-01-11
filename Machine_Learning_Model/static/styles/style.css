@@ -1,12 +1,12 @@
 .jumbotron 
   {
-    background-image: url("Banner1.jpg");
+    background-image: url("header.jpg");
     background-size: 100% 100%;
     text-align: center;
   }
 
 body {
-  background-image: url("backgroundf!.jpg");
+  background-color: white;
 }
 
 ul {
