@@ -96,6 +96,7 @@ N/A
 ### Dashboard
 [Story Board](https://docs.google.com/presentation/d/1zPjLQjZFv1hgx527TvCYcwXP_tY3SkvMWfn8anygJrc/edit?usp=sharing)
 [Savitha](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/README.md) started the base code
-[Elizabeth](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md) and [Caleb](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md) put it together
+[Elizabeth](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md) then worked on design
+
 
 ## Segement 4
