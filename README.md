@@ -53,31 +53,7 @@ Presentation: Everyone
 Github: Master branch origanization - Elizabeth, Branches - Everyone  
 Machine Learning model: Savitha and Brandon  
 Database: Caleb  
-Dashboard: Savitha and Elizabeth  
-
-**Data Exploration:**  
-Two datasets were used as a part of this project. Both the files were reviewed to determine the number of rows, the columns available and the data type for the column.
-
-**Data Analysis:**  
-The dataset was analysed in detail during the data preprocessing step. Initial analysis includes determining the data types, null values in the dataset, duplicate entries, looking at unique values to create bins.
-
-### Machine Learning Model:  
-
-[Link to Machine Learning Model](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/Machine%20Learning%20Model/House_Price_Prediction_ML.ipynb)
-
-**Data Preprocessing:**  
-The steps for data preprocessing are listed below
-
-* Drop any null rows
-* Drop any rows that do not have price
-* Format the date column to extract the sold year
-* Calculate the sold age and renovated age column for prediction (since encoding the year column might not yield required results, the age is calculated for prediction)
-* Merged dataset to get primary city for each zipcode (Will be performed using SQL Alchemy after database integration)
-* Drop columns that are not needed (id,lat,long,sqft_living15,sqft_lot15,date,yr_built,yr_renovated,zipcode)
-* The primary city column was encoded using custom encoding (rank based on average price)
-
-**Feature Selection:**  
-Feature selection was performed using two different methods
+Dashboard: Savitha and Elizabeth 
 
 * Pearsons Correlation Coefficient was used to determine the correlation between the price and other columns
 * Select Kbest score was used to determine the significance of each column to the price
