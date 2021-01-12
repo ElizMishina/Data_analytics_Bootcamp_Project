@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>House Price Prediction</title>
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+<!--
+    <div class="wrapper">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">House Price Prediction</a>
+        </nav>
+    </div>
+-->
+</head>
+
+<!--<style>
+    body {background-image: url(../static/styles/background.jpg);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        font-family:Garamond;}
+</style>-->
+
+<body>
+   
+    <div class="jumbotron">
+        <h1>House Price Prediction</h1>
+        <h2>King County, Washington</h2>
+    </div>
+<!--
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <h3>House Price Prediction<br></h3>
+                <p>Enter the values in the form given to predict house prices. 
+                    <br>City name is a mandatory field. 
+                    Other fields can be left blank.</p>
+            </div>
+        </div>
+    </div>
+
+-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2" background = >
+                <h3>House Price Prediction<br></h3>
+                <p>Enter the values in the form given to predict house prices. 
+                    <br>City name is a mandatory field. 
+                    Other fields can be left blank.</p>
+                <form action="{{url_for("predict_api")}}" method="POST">
+                <ul class="list-group">
+
+                    <li class="list-group-item">
+                        <!-- <label for="city">City</label> 
+                        <input type="text" name="city" placeholder="" id="city" required/> -->
+                        <label for="city">City</label >
+                        <Select type="text" name="city" placeholder="" id="city" required>
+                        <option value="{{city_list[0]}}" selected>{{city_list[0]}}</option>
+                            {% for city in city_list[1:] %}
+                              <option value="{{city}}">{{city}}</option>
+                            {% endfor %}
+                        </Select>
+                    </li>
+                    <li class="list-group-item" > 
+                        <label for="sqft_living">SQFT Living</label>
+                        <input type="text" name="sqft_living" placeholder="" id="sqft_living" />
+                    </li>
+                    <li class="list-group-item">
+                        <label for="sqft_above">SQFT Above</label>
+                        <input type="text" name="sqft_above" placeholder="" id="sqft_above" />
+                    </li>
+                    <li class="list-group-item">
+                        <label for="sqft_basement">SQFT Basement</label>
+                        <input type="text" name="sqft_basement" placeholder="" id="sqft_basement" />
+                    </li>
+                    <li class="list-group-item">
+                        <label for="bedrooms" >Bedrooms</label>
+                        <input type="text" name="bedrooms" placeholder="" id="bedrooms" />
+                    </li>
+                    <li class="list-group-item">
+                        <label for="bathrooms" >Bathrooms</label>
+                        <input type="text" name="bathrooms" placeholder="" id="bathrooms" />
+                    </li>
+                    <li class="list-group-item">
+                        <label for="view" >View</label>
+                        <input type="text" name="view" placeholder="" id="view" />
+                    </li>
+
+                    <li class="list-group-item">
+                        <label for="grade" >Grade</label>
+                        <input type="text" name="grade" placeholder="" id="grade" />
+                    </li>
+                    <li class="list-group-item">
+                        <button type="submit">Predict</button> 
+                    </li>
+                </ul>
+                </form>
+                <h3><br>Feature Details<br></h3>
+                <p><b>City :</b> Name of the city in which the house is located</p>
+                <p><b>SQFT Living :</b> Square footage of the apartments interior living space</p>
+                <p><b>SQFT Above :</b> The square footage of the interior housing space that is above ground level </p>
+                <p><b>SQFT Basement :</b> The square footage of the interior housing space that is below ground level </p>
+                <p><b>Bedrooms:</b> Number of bedrooms in the house</p>
+                <p><b>Bathrooms :</b> Number of bathrooms in the house</p>
+                <p><b>View :</b> An index from 0 to 4 of how good the view of the property was</p>
+                <p><b>Grade:</b> An index from 1 to 13, where 1-3 falls short of building construction and design, 
+                        7 has an average level of construction and design, 
+                        and 11- 13 have a high quality level of construction</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Correlation between House Features and House Price</h2>
+
+                <img src="../static/styles/House_Price_Corr.png" alt="House_Price_Corr" style='height:50%; width:100%; object-fit: contain'>  
+                <img src="../static/styles/House.jpg" alt="House_Price_Corr" style='height:50%; width:100%;  object-fit: contain'>
+
+            </div>
+            <div class="col-md-4">
+                <h2>Clustering of House Features</h2>
+                <iframe src="../static/styles/chart.html" style='height:100%; width:100%; object-fit: contain' >    
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+</body>
+</html>
