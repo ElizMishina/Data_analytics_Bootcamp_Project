@@ -101,3 +101,10 @@ created and joind the tables using SQLlite
 
 
 ## Segement 4
+### Presentation
+### GitHub
+### Machine Learning Model
+### Database
+### Dashboard
+* everyone worked together to upload to Heroku
+* [Brandon's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Brandon/Brandon/README.md) did the actuall upload 
