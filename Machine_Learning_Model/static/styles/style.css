@@ -1,6 +1,10 @@
 body {
-  background-color: #a9d5f1;
-  font-family:Garamond;
+  background-image: url(background.jpg);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family:Garamond;
 }
 
 .jumbotron {
