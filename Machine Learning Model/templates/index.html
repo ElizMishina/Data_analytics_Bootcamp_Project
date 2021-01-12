@@ -39,6 +39,7 @@
         <h1>House Price Prediction</h1>
         <h2>King County, Washington</h2>
     </div>
+<!--
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8">
@@ -49,13 +50,16 @@
             </div>
         </div>
     </div>
-
+-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-2" background = >
+                <h3>House Price Prediction<br></h3>
+                <p>Enter the values in the form given to predict house prices. 
+                    <br>City name is a mandatory field. 
+                    Other fields can be left blank.</p>
                 <form action="{{url_for("predict_api")}}" method="POST">
                 <ul class="list-group">
-
                     <li class="list-group-item">
                         <!-- <label for="city">City</label> 
                         <input type="text" name="city" placeholder="" id="city" required/> -->
@@ -115,8 +119,8 @@
             </div>
             <div class="col-md-4">
                 <h2>Correlation between House Features and House Price</h2>
-                <img src="../static/styles/House_Price_Corr.png" alt="House_Price_Corr" style='height:100%; width:100%; object-fit: contain'>  
-                <!--<img src="../static/styles/House.jpg" alt="House_Price_Corr" style='height:100%; width:100%;  object-fit: contain'>-->  
+                <img src="../static/styles/House_Price_Corr.png" alt="House_Price_Corr" style='height:50%; width:100%; object-fit: contain'>  
+                <img src="../static/styles/House.jpg" alt="House_Price_Corr" style='height:50%; width:100%;  object-fit: contain'>
             </div>
             <div class="col-md-4">
                 <h2>Clustering of House Features</h2>
