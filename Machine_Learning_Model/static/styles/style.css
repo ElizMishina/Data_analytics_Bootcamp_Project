@@ -53,26 +53,26 @@ p {
 .data th {
   width: 300px;
   table-layout: fixed;
-  background-color: #a9d5f1;
-  color: 	#14537c;
+  background-color: #b0d6ed;
+  color: 	#040d13;
   font-size: large;
 }
 
 .data td {
-  background-color: #a9d5f1;
-  color:	#14537c;
+  background-color: #b0d6ed;
+  color:	#040d13;
   font-size: large;
 }
 
 .maxdata th {
   width: 300px;
-  background-color: #a9d5f1;
-  color:	#14537c;
+  background-color: #b0d6ed;
+  color:	#040d13;
   font-size: large;
 }
 
 .maxdata td {
-  background-color: #a9d5f1;
-  color:	#14537c;
+  background-color: #b0d6ed;
+  color:	#040d13;
   font-size: large;
 }
