@@ -59,7 +59,11 @@ p {
 }
 
 .data td {
+<<<<<<< HEAD
   background-color: #b0d6ed;
+=======
+  background-color: #ffffff;
+>>>>>>> ssathya
   color:	#040d13;
   font-size: large;
 }
@@ -72,7 +76,11 @@ p {
 }
 
 .maxdata td {
+<<<<<<< HEAD
   background-color: #b0d6ed;
+=======
+  background-color: #ffffff;
+>>>>>>> ssathya
   color:	#040d13;
   font-size: large;
 }
