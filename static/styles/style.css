@@ -77,7 +77,7 @@ p {
   font-size: large;
 }
 
-table.dataframe {
+table.dataframe,.dataframe th, .dataframe td {
   border: none;
   border-bottom: 1px solid #C8C8C8;
   border-collapse: collapse;
@@ -85,18 +85,13 @@ table.dataframe {
   padding: 5px;
   margin-bottom: 40px;
   font-size: large;
-  overflow: scroll; 
+  white-space: nowrap;
 }
 
-.dataframe th, .dataframe td {
-  border: none;
-  border-bottom: 1px solid #C8C8C8;
-  border-collapse: collapse;
-  text-align:left;
-  padding: 5px;
-  margin-bottom: 40px;
-  font-size: large;
+#table-wrapper {
+  position:relative;
 }
 
-
-
+#table-scroll {
+  overflow:auto;  
+}

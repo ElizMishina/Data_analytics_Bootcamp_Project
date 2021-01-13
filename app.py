@@ -130,7 +130,6 @@ def predict_api():
         median_details = median_details.transpose()  
 
         # Create html table for diaplay
-        pd.set_option('display.max_colwidth', 40)
         pred_table = pred_details.to_html(classes='data', header="true", index=False, justify="left")
         max_table = max_details.to_html(classes='maxdata',header=False, justify="left")
         min_table = min_details.to_html(classes='maxdata', header=False,justify="left")

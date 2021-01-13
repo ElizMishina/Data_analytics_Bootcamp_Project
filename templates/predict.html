@@ -124,29 +124,41 @@
                         7 has an average level of construction and design, 
                         and 11- 13 have a high quality level of construction</p>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <h3><b>Minimum Priced<br> Home </b></h3>
+                <div id="table-wrapper">
+                <div id="table-scroll">
                 <p>
                     {% for table in mintable %}
                         {{ table|safe }}
                     {% endfor %}
                 </p>
+                </div>
+                </div>  
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <h3><b> Maximum Priced<br> Home </b></h3>
+                <div id="table-wrapper">
+                <div id="table-scroll">
                 <p>
                     {% for table in maxtable %}
                         {{ table|safe }}
                     {% endfor %}
                 </p>
+                </div>
+                </div>  
             </div>
-            <div class="col-md-5">
+            <div class="col-md-3">
                 <h3><b> Median Priced<br> Home </b></h3>
+                <div id="table-wrapper">
+                <div id="table-scroll">
                 <p>
                     {% for table in mediantable %}
                         {{ table|safe }}
                     {% endfor %}
                 </p>
+                </div>
+                </div>  
             </div>
         </div>
     </div>
