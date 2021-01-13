@@ -76,3 +76,27 @@ p {
   color:	#040d13;
   font-size: large;
 }
+
+table.dataframe {
+  border: none;
+  border-bottom: 1px solid #C8C8C8;
+  border-collapse: collapse;
+  text-align:left;
+  padding: 5px;
+  margin-bottom: 40px;
+  font-size: large;
+  overflow: scroll; 
+}
+
+.dataframe th, .dataframe td {
+  border: none;
+  border-bottom: 1px solid #C8C8C8;
+  border-collapse: collapse;
+  text-align:left;
+  padding: 5px;
+  margin-bottom: 40px;
+  font-size: large;
+}
+
+
+

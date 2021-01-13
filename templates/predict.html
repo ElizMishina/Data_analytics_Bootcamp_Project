@@ -35,8 +35,8 @@
 <body> 
 
     <div class="jumbotron">
-        <h1>House Price Prediction</h1>
-        <h2>King County, Washington</h2>
+        <h1><b>House Price Prediction</b></h1>
+        <h2><b>King County, Washington</b></h2>
     </div>
     <div class="container-fluid">
         <div class="row">
@@ -61,16 +61,10 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4">
-                <h3>House Price Prediction<small><br></h3>
-                <p>Enter the values in the form given to predict house prices. 
-                <br>City name is a mandatory field. Other fields can be left blank.</p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
             <div class="col-md-3">
+                <h3><b>House Price Prediction</b><br></h3>
+                <p>Enter the values in the form given to predict house prices. 
+                City name is a mandatory field. Other fields can be left blank.</p>
                 <form action="{{url_for("predict_api")}}" method="POST">
                 <ul  class="list-group">
                     <li  class="list-group-item">
@@ -118,37 +112,7 @@
                     </li>
                 </ul>
                 </form>
-            </div>
-            <div class="col-md-2">
-                <h3> Minimum Priced<br> Home </h3>
-                <p>
-                    {% for table in mintable %}
-                        {{ table|safe }}
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="col-md-2">
-                <h3> Maximum Priced<br> Home </h3>
-                <p>
-                    {% for table in maxtable %}
-                        {{ table|safe }}
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h3> Median Priced<br> Home </h3>
-                <p>
-                    {% for table in mediantable %}
-                        {{ table|safe }}
-                    {% endfor %}
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <h3><br>Feature Details<small><br></h3>
+                <h3><br><b>Feature Details<br></b></h3>
                 <p><b>City :</b> Name of the city in which the house is located</p>
                 <p><b>SQFT Living :</b> Square footage of the apartments interior living space</p>
                 <p><b>SQFT Above :</b> The square footage of the interior housing space that is above ground level </p>
@@ -159,6 +123,30 @@
                 <p><b>Grade:</b> An index from 1 to 13, where 1-3 falls short of building construction and design, 
                         7 has an average level of construction and design, 
                         and 11- 13 have a high quality level of construction</p>
+            </div>
+            <div class="col-md-2">
+                <h3><b>Minimum Priced<br> Home </b></h3>
+                <p>
+                    {% for table in mintable %}
+                        {{ table|safe }}
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-md-2">
+                <h3><b> Maximum Priced<br> Home </b></h3>
+                <p>
+                    {% for table in maxtable %}
+                        {{ table|safe }}
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-md-5">
+                <h3><b> Median Priced<br> Home </b></h3>
+                <p>
+                    {% for table in mediantable %}
+                        {{ table|safe }}
+                    {% endfor %}
+                </p>
             </div>
         </div>
     </div>

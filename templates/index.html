@@ -36,8 +36,8 @@
 <body>
    
     <div class="jumbotron">
-        <h1>House Price Prediction</h1>
-        <h2>King County, Washington</h2>
+        <h1><b>House Price Prediction</b></h1>
+        <h2><b>King County, Washington</b></h2>
     </div>
 <!--
     <div class="container-fluid">
@@ -54,10 +54,10 @@
 -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3" background = >
-                <h3>House Price Prediction<br></h3>
+            <div class="col-md-3">
+                <h3><b>House Price Prediction<br></b></h3>
                 <p>Enter the values in the form given to predict house prices. 
-                    <br>City name is a mandatory field. 
+                    City name is a mandatory field. 
                     Other fields can be left blank.</p>
                 <form action="{{url_for("predict_api")}}" method="POST">
                 <ul class="list-group">
@@ -107,7 +107,7 @@
                     </li>
                 </ul>
                 </form>
-                <h3><br>Feature Details<br></h3>
+                <h3><b>Feature Details<br></b></h3>
                 <p><b>City :</b> Name of the city in which the house is located</p>
                 <p><b>SQFT Living :</b> Square footage of the apartments interior living space</p>
                 <p><b>SQFT Above :</b> The square footage of the interior housing space that is above ground level </p>
@@ -120,15 +120,14 @@
                         and 11- 13 have a high quality level of construction</p>
             </div>
             <div class="col-md-4">
-                <h2>Correlation between House Features and House Price</h2>
-
-                <img src="../static/styles/House_Price_Corr.png" alt="House_Price_Corr" style='height:50%; width:100%; object-fit: contain'>  
-                <img src="../static/styles/House.jpg" alt="House_Price_Corr" style='height:50%; width:100%;  object-fit: contain'>
+                <div padding-top: 50px;><h2><b>Correlation between House Features and House Price</b></h2></div>
+                <img src="../static/styles/House_Price_Corr.png" alt="House_Price_Corr" style='height:35%; width:100%; object-fit: contain'>  
+                <img src="../static/styles/House.jpg" alt="House_Price_Corr" style='height:35%; width:100%;  object-fit: contain'>
 
             </div>
             <div class="col-md-5">
-                <h2>Clustering of House Features</h2>
-                <iframe src="../static/styles/chart.html" style='height:75%; width:100%; object-fit: contain' >    
+                <h2><b>Clustering by House Features</b></h2>
+                <iframe src="../static/styles/chart.html" style='height:70%; width:100%; object-fit: contain' >    
             </div>
         </div>
     </div>
