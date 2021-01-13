@@ -80,7 +80,7 @@ def predict_api():
 
         # Get Maximum Price Row and format for html display 
         max_details = predict_filter_df[predict_filter_df.price == predict_filter_df.price.max()]
-        max_details['price'] = max_details['price'].astype('int64') 
+        max_details['price'] = max_details['price'].map("${:,.0f}".format) 
         max_details = max_details.rename(columns={"sqft_living" : "SQFT Living",
                                            "sqft_basement" : "SQFT Basement",
                                            "sqft_above" : "SQFT Above",
@@ -96,7 +96,7 @@ def predict_api():
 
         # Get Maximum Price Row and format for html display 
         min_details = predict_filter_df[predict_filter_df.price == predict_filter_df.price.min()]
-        min_details['price'] = min_details['price'].astype('int64') 
+        min_details['price'] = min_details['price'].map("${:,.0f}".format) 
         min_details = min_details.rename(columns={"sqft_living" : "SQFT Living",
                                            "sqft_basement" : "SQFT Basement",
                                            "sqft_above" : "SQFT Above",
@@ -115,7 +115,7 @@ def predict_api():
         predict_filter_df["Diff_From_Median"] = predict_filter_df['price'] - predict_filter_df["Median_Price"]
         predict_filter_df["Diff_From_Median"] = predict_filter_df["Diff_From_Median"].abs()
         median_details = predict_filter_df[predict_filter_df.Diff_From_Median == predict_filter_df.Diff_From_Median.min()]
-        median_details['price'] = median_details['price'].astype('int64') 
+        median_details['price'] = median_details['price'].map("${:,.0f}".format) 
         median_details = median_details.rename(columns={"sqft_living" : "SQFT Living",
                                            "sqft_basement" : "SQFT Basement",
                                            "sqft_above" : "SQFT Above",
