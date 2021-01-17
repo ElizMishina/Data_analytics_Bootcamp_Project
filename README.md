@@ -36,4 +36,8 @@ In this segment
 
 
 ## Segement 4
+In this segment we completed the project and uploaded it to the web using Heroku.
+* final stylization and tweeking was done mostly by me and Savitha.
+* I continued to keep the github up todate, a lot of merging was invloved.
+* everyone worked together on the presentation
 
