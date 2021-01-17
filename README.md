@@ -102,9 +102,18 @@ created and joind the tables using SQLlite
 
 ## Segement 4
 ### Presentation
+* [Presentation Slides](https://docs.google.com/presentation/d/1tu8kpEW_eMj6sY7mHG4yKu1wUKrHQQwbZeIkFiv13WE/edit)
+Everyone
 ### GitHub
+* [Elizabeth](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md) then worked on design
 ### Machine Learning Model
+* [Brandon's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Brandon/Brandon/README.md)
+* [Savitha's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/README.md)
+
 ### Database
+* [Caleb's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Caleb/README.md) finalised database
+
 ### Dashboard
 * everyone worked together to upload to Heroku
-* [Brandon's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Brandon/Brandon/README.md) did the actuall upload 
+
+[Completed Presentation](https://house-price-prediction-2020.herokuapp.com/) (might take a bit to load)
