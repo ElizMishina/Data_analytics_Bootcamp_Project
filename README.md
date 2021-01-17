@@ -2,6 +2,49 @@
 
 [Master Readme Link](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/tree/main)
 
+## Deliverable 4
+
+Presentation: Everyone  
+Github: Master branch origanization - Elizabeth, Branches - Everyone  
+Machine Learning model: Savitha and Brandon  
+Database: Caleb  
+Dashboard: Savitha and Elizabeth 
+
+**Result of Analysis:**
+The App is able to predict the house price based on the values entered by the user with 83% accuracy  
+The features that impact the house price are given below (ranked from 1)  
+
+- Sqft Living
+- Grade (of the house 1(low) to 13(high))
+- Sqft Above
+- Bathrooms
+- City Rank (based on the average price of city)
+- View (from property 1 (low) to 4(high))
+- Sqft Basement
+- Bedrooms
+- Waterfront (Is the property waterfront or not)
+- floors
+- Renovated Age (Sold year - Revonated year)
+- Sqft Lot
+- Sold Age (Sold Year - Built Year)
+- Condition (of the house 1 - 4)
+
+**Recommendations and Areas of Improvement:**
+
+- Prediction Accuracy of the machine learning model can be improved by exploring different models
+- Handling of the form entries when no data is provided by the user can be improved
+- Refactor code using functions for performance
+- Improve HTML view by adding addition charts and information
+
+**Slides**  
+[Google Slides](https://docs.google.com/presentation/d/1tu8kpEW_eMj6sY7mHG4yKu1wUKrHQQwbZeIkFiv13WE/edit?usp=sharing)
+
+**Dashboard**  
+[Heroku App](https://house-price-prediction-2020.herokuapp.com/)
+
+**Database**  
+[Caleb's Readme](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/tree/Caleb)
+
 ## Deliverable 3
 
 **Worked on:**  
