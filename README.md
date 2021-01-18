@@ -160,4 +160,8 @@ Observations:
 Presentation: Brandon DeLuna, Elizabteh Mishina, Savitha Sathyanathan, Caleb TenHuisen
 
 [Main Readme Link](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/tree/main)
+
+[Heroku App](https://house-price-prediction-2020.herokuapp.com/)
+
+[Google Slides](https://docs.google.com/presentation/d/1tu8kpEW_eMj6sY7mHG4yKu1wUKrHQQwbZeIkFiv13WE/edit?usp=sharing)
     
