@@ -157,7 +157,7 @@ Observations:
 
 # Segment 4
 
-Presentation 
+Presentation: Brandon DeLuna, Elizabteh Mishina, Savitha Sathyanathan, Caleb TenHuisen
 
 [Main Readme Link](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/tree/main)
     
