@@ -19,7 +19,7 @@ We are curious about how the internal and external features as well as area surr
 ### GitHub
 #### Who Worked on It
 * Elizabeth
-    * [Elizabeth's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Brandon/README.md)
+    * [Elizabeth's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/EMishina/README.md)
 
 #### Communication
 Communication is primerly done through biweekly meetings as well as messaging in discord.
@@ -29,7 +29,7 @@ We also have a Google folder where we give each other hints, help, as well as in
 ### Machine Learning Model
 #### Who Worked on It
 * Brandon
-    * [Brandon's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Brandon/Brandon/README.md)
+    * [Brandon's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/Brandon/README.md)
 * Savitha
     * [Savitha's ReadMe](https://github.com/ElizMishina/Data_analytics_Bootcamp_Project/blob/ssathya/README.md)
 
